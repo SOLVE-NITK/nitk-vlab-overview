@@ -1,0 +1,1157 @@
+
+{
+  "institute": {
+    "name": "NITK Surathkal",
+    "website": "https://www.vlab.co.in/participating-institute-nitk-surathkal"
+  },
+  "summary": {
+    "departments": 6,
+    "hostedLabs": 23,
+    "experiments": 180,
+    "upcomingLabs":29
+  },
+  "departments": [
+    {
+      "id": "mechanical",
+      "name": "Mechanical Engineering",
+      "icon": "⚙️",
+      "labs": [
+        {
+          "id": "heat-transfer",
+          "name": "Heat Transfer Lab",
+          "status": "Hosted",
+          "url": "https://ht-nitk.vlabs.ac.in/",
+          "experiments": [
+  {
+    "name": "Thermal Conductivity of Metal Rod",
+    "url": "https://ht-nitk.vlabs.ac.in/exp/thermal-conductivity-metal-rod/"
+  },
+  {
+    "name": "Heat Transfer through a Long Fin",
+    "url": "https://ht-nitk.vlabs.ac.in/exp/thermal-conductivity-liquid/"
+  },
+  {
+    "name": "Thermal Conductivity of Insulating Powder",
+    "url": "https://ht-nitk.vlabs.ac.in/exp/thermal-conductivity-insulating-material/"
+  },
+  {
+    "name": "Overall Heat Transfer Coefficient of a Composite Wall",
+    "url": "https://ht-nitk.vlabs.ac.in/exp/composite-wall/"
+  },
+  {
+    "name": "Heat Transfer Coefficient in Natural Convection",
+    "url": "https://ht-nitk.vlabs.ac.in/exp/natural-convection/"
+  },
+  {
+    "name": "Heat Transfer Coefficient in Forced Convection",
+    "url": "https://ht-nitk.vlabs.ac.in/exp/forced-convection/"
+  },
+  {
+    "name": "Emissivity of a Surface",
+    "url": "https://ht-nitk.vlabs.ac.in/exp/emissivity-of-surface/"
+  },
+  {
+    "name": "Stefan–Boltzmann Constant",
+    "url": "https://ht-nitk.vlabs.ac.in/exp/stefan-boltzmann-constant/"
+  },
+  {
+    "name": "Critical Heat Flux",
+    "url": "https://ht-nitk.vlabs.ac.in/exp/critical-heat-flux/"
+  }
+]
+        },
+        {
+          "id": "fluid-machinery",
+          "name": "Fluid Machinery Lab",
+          "status": "Hosted",
+          "url": "https://fmc-nitk.vlabs.ac.in",
+          "experiments": [
+  {
+    "name": "Performance Characteristics of Centrifugal Pump",
+    "url": "https://fmc-nitk.vlabs.ac.in/exp/centrifugal-pump/"
+  },
+  {
+    "name": "Performance Characteristics of Hydraulic Ram",
+    "url": "https://fmc-nitk.vlabs.ac.in/exp/hydraulic-ram/"
+  },
+  {
+    "name": "Performance Characteristics of Kaplan Turbine",
+    "url": "https://fmc-nitk.vlabs.ac.in/exp/kaplan-turbine/"
+  },
+  {
+    "name": "Double Acting Reciprocating Pump",
+    "url": "https://fmc-nitk.vlabs.ac.in/exp/double-acting-reciprocating-pump/"
+  },
+  {
+    "name": "Performance Characteristics of Pelton Turbine",
+    "url": "https://fmc-nitk.vlabs.ac.in/exp/pelton-turbine/"
+  },
+  {
+    "name": "Pipe Bursting",
+    "url": "https://fmc-nitk.vlabs.ac.in/exp/pipe-bursting/"
+  },
+  {
+    "name": "Performance Characteristics of Francis Turbine",
+    "url": "https://fmc-nitk.vlabs.ac.in/exp/francis-turbine/"
+  }
+]
+        },
+        {
+          "id": "mechanics-machine-1",
+          "name": "Mechanics of Machine Lab I",
+          "status": "Hosted",
+          "url": "https://mm-nitk.vlabs.ac.in/",
+"experiments": [
+  {
+    "name": "Position Analysis of Grashof Four Bar Mechanism",
+    "url": "https://mm-nitk.vlabs.ac.in/exp/position-analysis-grashof/"
+  },
+  {
+    "name": "Velocity Analysis of Grashof Four Bar Mechanism",
+    "url": "https://mm-nitk.vlabs.ac.in/exp/velocity-analysis-grashof/"
+  },
+  {
+    "name": "Acceleration Analysis of Grashof Four Bar Mechanism",
+    "url": "https://mm-nitk.vlabs.ac.in/exp/acceleration-analysis-grashof/"
+  },
+  {
+    "name": "Position Analysis of Non-Grashof Four Bar Mechanism",
+    "url": "https://mm-nitk.vlabs.ac.in/exp/position-analysis-nongrashof/"
+  },
+  {
+    "name": "Velocity Analysis of Non-Grashof Four Bar Mechanism",
+    "url": "https://mm-nitk.vlabs.ac.in/exp/velocity-analysis-nongrashof/"
+  },
+  {
+    "name": "Acceleration Analysis of Non-Grashof Four Bar Mechanism",
+    "url": "https://mm-nitk.vlabs.ac.in/exp/acceleration-analysis-nongrashof/"
+  },
+  {
+    "name": "Position Analysis of Slider Crank Mechanism",
+    "url": "https://mm-nitk.vlabs.ac.in/exp/position-analysis-slider-crank/"
+  },
+  {
+    "name": "Velocity Analysis of Slider Crank Mechanism",
+    "url": "https://mm-nitk.vlabs.ac.in/exp/velocity-analysis-slider-crank/"
+  },
+  {
+    "name": "Acceleration Analysis of Slider Crank Mechanism",
+    "url": "https://mm-nitk.vlabs.ac.in/exp/acceleration-analysis-slider-crank/"
+  },
+  {
+    "name": "Position Analysis of Slider Crank Mechanism with Offset",
+    "url": "https://mm-nitk.vlabs.ac.in/exp/position-analysis-slider-crank-offset/"
+  },
+  {
+    "name": "Position Analysis of Scotch Yoke Mechanism",
+    "url": "https://mm-nitk.vlabs.ac.in/exp/position-analysis-scotch-yoke/"
+  },
+  {
+    "name": "Velocity Analysis of Scotch Yoke Mechanism",
+    "url": "https://mm-nitk.vlabs.ac.in/exp/velocity-analysis-scotch-yoke/"
+  },
+  {
+    "name": "Acceleration Analysis of Scotch Yoke Mechanism",
+    "url": "https://mm-nitk.vlabs.ac.in/exp/acceleration-analysis-scotch-yoke/"
+  },
+  {
+    "name": "Position Analysis of Elliptical Trammel",
+    "url": "https://mm-nitk.vlabs.ac.in/exp/position-analysis-elliptical-trammel/"
+  }
+]        },
+        {
+          "id": "mechanics-machine-2",
+          "name": "Mechanics of Machines Lab II",
+          "status": "Hosted",
+          "url": "https://mm2-nitk.vlabs.ac.in/",
+          "experiments": [
+  {
+    "name": "Hart Straight Line Mechanism",
+    "url": "https://mm2-nitk.vlabs.ac.in/exp/hart-straight-line-mechanism/"
+  },
+  {
+    "name": "Peaucellier Straight Line Mechanism",
+    "url": "https://mm2-nitk.vlabs.ac.in/exp/peaucellier-straight-line-mechanism/"
+  },
+  {
+    "name": "Elliptical Cam Mechanism",
+    "url": "https://mm2-nitk.vlabs.ac.in/exp/elliptical-cam-mechanism/"
+  },
+  {
+    "name": "Eccentric Cam Mechanism",
+    "url": "https://mm2-nitk.vlabs.ac.in/exp/eccentric-cam-mechanism/"
+  },
+  {
+    "name": "Klann Mechanism",
+    "url": "https://mm2-nitk.vlabs.ac.in/exp/klann-mechanism/"
+  },
+  {
+    "name": "Jansen Linkage Model",
+    "url": "https://mm2-nitk.vlabs.ac.in/exp/jansen-linkage-model/"
+  },
+  {
+    "name": "Chebyshev's Straight Line Mechanism",
+    "url": "https://mm2-nitk.vlabs.ac.in/exp/chebyshev-straight-line-mechanism/"
+  },
+  {
+    "name": "Whitworth Mechanism",
+    "url": "https://mm2-nitk.vlabs.ac.in/exp/whitworth-mechanism/"
+  },
+  {
+    "name": "Crank and Slotted Mechanism",
+    "url": "https://mm2-nitk.vlabs.ac.in/exp/crank-and-slotted-mechanism/"
+  },
+  {
+    "name": "Universal Joint",
+    "url": "https://mm2-nitk.vlabs.ac.in/exp/universal-joint/"
+  }
+]
+        },
+        {
+          "id": "machine-dynamics",
+          "name": "Machine Dynamics & Mechanical Vibration Lab",
+          "status": "Hosted",
+          "url": "https://mdmv-nitk.vlabs.ac.in/",
+          "experiments": [
+  {
+    "name": "Free Vibration of Cantilever Beam",
+    "url": "https://mdmv-nitk.vlabs.ac.in/exp/exp-cantilever-beam-nitk/"
+  },
+  {
+    "name": "Free Vibration of Simply Supported Beam",
+    "url": "https://mdmv-nitk.vlabs.ac.in/exp/exp-simply-supported-beam-nitk/"
+  },
+  {
+    "name": "Free Vibration of Fixed Beam",
+    "url": "https://mdmv-nitk.vlabs.ac.in/exp/exp-fixed-beam-nitk/"
+  },
+  {
+    "name": "Forced Vibration of SDOF System",
+    "url": "https://mdmv-nitk.vlabs.ac.in/exp/exp-forced-vibration-sdof-nitk/"
+  },
+  {
+    "name": "Base Excitation",
+    "url": "https://mdmv-nitk.vlabs.ac.in/exp/exp-base-excitation-nitk/"
+  },
+  {
+    "name": "Rotating Unbalance",
+    "url": "https://mdmv-nitk.vlabs.ac.in/exp/exp-rotating-unbalance-nitk/"
+  },
+  {
+    "name": "2DOF Forced Vibration",
+    "url": "https://mdmv-nitk.vlabs.ac.in/exp/exp-2dof-forced-vibration-nitk/"
+  },
+  {
+    "name": "Dynamic Vibration Absorber",
+    "url": "https://mdmv-nitk.vlabs.ac.in/exp/exp-dynamic-vibration-absorber-nitk/"
+  }
+]
+        },
+        {
+          "id": "dynamics-machine",
+          "name": "Dynamics of Machine Lab",
+          "status": "Hosted",
+          "url": "https://dom-nitk.vlabs.ac.in/",
+          "experiments": [
+  {
+    "name": "Dynamics Analysis of Four Bar Mechanism",
+    "url": "https://dom-nitk.vlabs.ac.in/exp/four-bar-mechanism/"
+  },
+  {
+    "name": "Dynamics Analysis of Slider Crank Mechanism",
+    "url": "https://dom-nitk.vlabs.ac.in/exp/slider-crank-mechanism/"
+  },
+  {
+    "name": "Proell Governor",
+    "url": "https://dom-nitk.vlabs.ac.in/exp/proell-governer/"
+  },
+  {
+    "name": "Porter Governor",
+    "url": "https://dom-nitk.vlabs.ac.in/exp/porter-governer/"
+  },
+  {
+    "name": "Hartnell Governor",
+    "url": "https://dom-nitk.vlabs.ac.in/exp/hartnell-governer/"
+  },
+  {
+    "name": "Balancing of Multiple Mass in Single Plane",
+    "url": "https://dom-nitk.vlabs.ac.in/exp/balancing-single-plane/"
+  },
+  {
+    "name": "Balancing of Multiple Mass in Multiple Plane",
+    "url": "https://dom-nitk.vlabs.ac.in/exp/balancing-multiple-plane/"
+  },
+  {
+    "name": "Disc Type Flywheel",
+    "url": "https://dom-nitk.vlabs.ac.in/exp/disc-type-flywheel/"
+  },
+  {
+    "name": "Rim Type Flywheel",
+    "url": "https://dom-nitk.vlabs.ac.in/exp/rim-type-flywheel/"
+  }
+]
+        },
+        {
+          "id": "engineering-graphics",
+          "name": "Engineering Graphics Lab",
+          "status": "Hosted",
+          "url": "https://eg-nitk.vlabs.ac.in/",
+          "experiments": [
+  {
+    "name": "Projection of Points",
+    "url": "https://eg-nitk.vlabs.ac.in/exp/projection-of-points/"
+  },
+  {
+    "name": "Projection of Straight Lines",
+    "url": "https://eg-nitk.vlabs.ac.in/exp/projection-of-straight-lines/"
+  },
+  {
+    "name": "Projection of Planes",
+    "url": "https://eg-nitk.vlabs.ac.in/exp/projection-of-planes/"
+  },
+  {
+    "name": "Projection of Solids",
+    "url": "https://eg-nitk.vlabs.ac.in/exp/projection-of-solids/"
+  },
+  {
+    "name": "Sections of Solids",
+    "url": "https://eg-nitk.vlabs.ac.in/exp/sections-of-solids/"
+  },
+  {
+    "name": "Development of Surfaces",
+    "url": "https://eg-nitk.vlabs.ac.in/exp/development-of-surfaces/"
+  },
+  {
+    "name": "Orthographic Projections",
+    "url": "https://eg-nitk.vlabs.ac.in/exp/orthographic-projections/"
+  },
+  {
+    "name": "Isometric Projections",
+    "url": "https://eg-nitk.vlabs.ac.in/exp/isometric-projections/"
+  },
+  {
+    "name": "Conversion of Isometric View to Orthographic View",
+    "url": "https://eg-nitk.vlabs.ac.in/exp/isometric-to-orthographic/"
+  },
+  {
+    "name": "Conversion of Orthographic View to Isometric View",
+    "url": "https://eg-nitk.vlabs.ac.in/exp/orthographic-to-isometric/"
+  }
+]
+        },
+        {
+          "id": "vibration-2",
+          "name": "Vibration Lab II",
+          "status": "Hosted",
+          "url": "https://vibration2-nitk.vlabs.ac.in/",
+          "experiments": [
+  {
+    "name": "Free Vibration Analysis of 2 DOF Undamped System",
+    "url": "https://vibration2-nitk.vlabs.ac.in/exp/free-vibration-analysis-two-degree-freedom/"
+  },
+  {
+    "name": "Forced Vibration Analysis of 2 DOF System",
+    "url": "https://vibration2-nitk.vlabs.ac.in/exp/forced-vibration-analysis-two-degree-freedom/"
+  },
+  {
+    "name": "Impulse Response Analysis of 2 DOF System",
+    "url": "https://vibration2-nitk.vlabs.ac.in/exp/impulse-response-analysis-two-degree-freedom/"
+  },
+  {
+    "name": "Motor on a Foundation as a 2 DOF System – Forced Vibration with Rotating Unbalance",
+    "url": "https://vibration2-nitk.vlabs.ac.in/exp/motor-foundation-two-degree-rotating-unbalance/"
+  },
+  {
+    "name": "Forging Hammer as a 2 DOF System – Impulse Excitation",
+    "url": "https://vibration2-nitk.vlabs.ac.in/exp/forging-hammer-two-degree-freedom/"
+  },
+  {
+    "name": "Tuned Dynamic Vibration Absorber",
+    "url": "https://vibration2-nitk.vlabs.ac.in/exp/tuned-dynamic-vibration-absorber/"
+  },
+  {
+    "name": "Automotive Vehicle as a 2 DOF System – Static Coupling",
+    "url": "https://vibration2-nitk.vlabs.ac.in/exp/automotive-vehicle-static-coupling/"
+  },
+  {
+    "name": "Automotive Vehicle as a 2 DOF System – Dynamic Coupling",
+    "url": "https://vibration2-nitk.vlabs.ac.in/exp/automotive-vehicle-dynamic-coupling/"
+  },
+  {
+    "name": "Double Pendulum",
+    "url": "https://vibration2-nitk.vlabs.ac.in/exp/compound-pendulum/"
+  }
+]
+        }
+      ]
+    },
+    {
+      "id": "civil",
+      "name": "Civil Engineering",
+      "icon": "🏗️",
+      "labs": [
+        { 
+          "name": "Fluid Mechanics Lab", 
+          "status": "Hosted", 
+          "url": "https://fm-nitk.vlabs.ac.in/", 
+          "experiments": [
+            {
+              "name": "Calibration of V Notch",
+              "url": "https://fm-nitk.vlabs.ac.in/exp/calibration-of-v-notch/"
+            },
+            {
+              "name": "Calibration of Rectangular Notch",
+              "url": "https://fm-nitk.vlabs.ac.in/exp/calibration-of-rectangular-notch/"
+            },
+            {
+              "name": "Impact of Jet",
+              "url": "https://fm-nitk.vlabs.ac.in/exp/impact-of-jet/"
+            },
+            {
+              "name": "Friction in Pipes",
+              "url": "https://fm-nitk.vlabs.ac.in/exp/friction-in-pipes/"
+            },
+            {
+              "name": "Venturimeter",
+              "url": "https://fm-nitk.vlabs.ac.in/exp/venturimeter/"
+            }
+          ]
+        },
+        { 
+          "name": "Transportation Engineering Lab", 
+          "status": "Hosted", 
+          "url": "https://ts-nitk.vlabs.ac.in", 
+          "experiments": [
+            {
+              "name": "Crushing Value of Aggregate",
+              "url": "https://ts-nitk.vlabs.ac.in/exp/crushing-value-of-aggregate/"
+            },
+            {
+              "name": "Impact Test on Aggregate",
+              "url": "https://ts-nitk.vlabs.ac.in/exp/impact-test-on-aggregate/"
+            },
+            {
+              "name": "Los Angeles Abrasion Test on Aggregate",
+              "url": "https://ts-nitk.vlabs.ac.in/exp/los-angeles-abrasion-test-on-aggregate/"
+            },
+            {
+              "name": "Ductility Test on Bitumen",
+              "url": "https://ts-nitk.vlabs.ac.in/exp/ductility-test-on-bitumen/"
+            },
+            {
+              "name": "Softening Point Test on Bitumen",
+              "url": "https://ts-nitk.vlabs.ac.in/exp/softening-point-test-on-bitumen/"
+            },
+            {
+              "name": "Penetration Test on Bitumen",
+              "url": "https://ts-nitk.vlabs.ac.in/exp/penetration-test-on-bitumen/"
+            },
+            {
+              "name": "Specific Gravity Test on Bitumen",
+              "url": "https://ts-nitk.vlabs.ac.in/exp/specific-gravity-test-on-bitumen/"
+            },
+            {
+              "name": "California Bearing Ratio Test on Soil",
+              "url": "https://ts-nitk.vlabs.ac.in/exp/california-bearing-ratio-test-on-soil/"
+            }
+          ] 
+        },
+        { "name": "Environmental Engineering Lab I", "status": "Hosted", "url": "https://ee1-nitk.vlabs.ac.in/", "experiments": [
+  {
+    "name": "Determination of TS, TDS and TSS in Water",
+    "url": "https://ee1-nitk.vlabs.ac.in/exp/ts-tds-tss/"
+  },
+  {
+    "name": "Determination of Alkalinity in Water",
+    "url": "https://ee1-nitk.vlabs.ac.in/exp/alkalinity/"
+  },
+  {
+    "name": "Determination of Hardness in Water",
+    "url": "https://ee1-nitk.vlabs.ac.in/exp/hardness/"
+  },
+  {
+    "name": "Determination of Chloride in Water",
+    "url": "https://ee1-nitk.vlabs.ac.in/exp/chloride/"
+  },
+  {
+    "name": "Determination of Total Iron in Water",
+    "url": "https://ee1-nitk.vlabs.ac.in/exp/total-iron/"
+  },
+  {
+    "name": "Determination of pH",
+    "url": "https://ee1-nitk.vlabs.ac.in/exp/ph/"
+  },
+  {
+    "name": "Determination of Biological Oxygen Demand (BOD)",
+    "url": "https://ee1-nitk.vlabs.ac.in/exp/biological-oxygen-demand/"
+  }
+] },
+        { "name": "Environmental Engineering Lab II", "status": "Hosted", "url": "https://ee2-nitk.vlabs.ac.in/", "experiments": [
+  {
+    "name": "Determination of Chemical Oxygen Demand",
+    "url": "https://ee2-nitk.vlabs.ac.in/exp/chemical-oxygen/"
+  },
+  {
+    "name": "Alum Coagulation",
+    "url": "https://ee2-nitk.vlabs.ac.in/exp/alum-coagulation/"
+  },
+  {
+    "name": "Determination of Break-Point Chloride Demand in Water",
+    "url": "https://ee2-nitk.vlabs.ac.in/exp/break-point-chloride-demand/"
+  },
+  {
+    "name": "Determination of Sulphate in Water",
+    "url": "https://ee2-nitk.vlabs.ac.in/exp/sulphate/"
+  },
+  {
+    "name": "Determination of Fluoride in Water",
+    "url": "https://ee2-nitk.vlabs.ac.in/exp/fluoride/"
+  },
+  {
+    "name": "Determination of Dissolved Oxygen in Water",
+    "url": "https://ee2-nitk.vlabs.ac.in/exp/dissolved-oxygen/"
+  },
+  {
+    "name": "Determination of Turbidity in Water",
+    "url": "https://ee2-nitk.vlabs.ac.in/exp/turbidity/"
+  }
+] },
+        { "name": "Marine Structure Lab", "status": "Hosted", "url": "https://ms-nitk.vlabs.ac.in",             "experiments": [
+  {
+    "name": "Wave Attenuation in Pile Based Breakwater",
+    "url": "https://ms-nitk.vlabs.ac.in/exp/wave-attenuation-in-pile-based-breakwater/"
+  },
+  {
+    "name": "Wave Attenuation in Vegetation Based Breakwater",
+    "url": "https://ms-nitk.vlabs.ac.in/exp/wave-attenuation-in-vegetation-based-breakwater/"
+  },
+  {
+    "name": "Specific Gravity of Cement and Aggregates",
+    "url": "https://ms-nitk.vlabs.ac.in/exp/specific-gravity-of-cement-and-aggregates/"
+  },
+  {
+    "name": "Fineness Modulus of Cement and Aggregates",
+    "url": "https://ms-nitk.vlabs.ac.in/exp/fineness-modulus-of-cement-and-aggregates/"
+  },
+  {
+    "name": "Standard Consistency and Initial Setting Time of Cement",
+    "url": "https://ms-nitk.vlabs.ac.in/exp/standard-consistency-and-initial-setting-time-of-cement/"
+  },
+  {
+    "name": "Concrete Mix Design",
+    "url": "https://ms-nitk.vlabs.ac.in/exp/concrete-mix-design/"
+  },
+  {
+    "name": "Slump Test",
+    "url": "https://ms-nitk.vlabs.ac.in/exp/slump-test/"
+  }
+]},
+        { "name": "Mining Geology Lab", "status": "Hosted", "url": "https://mg-nitk.vlabs.ac.in", "experiments": [
+  {
+    "name": "Analysis of Contour Maps",
+    "url": "https://mg-nitk.vlabs.ac.in/exp/contour-maps/"
+  },
+  {
+    "name": "Analysis of Geological Features like Fault and Fold",
+    "url": "https://mg-nitk.vlabs.ac.in/exp/fault-and-fold/"
+  },
+  {
+    "name": "Identification of Minerals",
+    "url": "https://mg-nitk.vlabs.ac.in/exp/identification-of-minerals/"
+  },
+  {
+    "name": "Identification and Study on Physical Properties of Rocks",
+    "url": "https://mg-nitk.vlabs.ac.in/exp/properties-of-rocks/"
+  },
+  {
+    "name": "Structural Geology: Analysis of Dip and Strike",
+    "url": "https://mg-nitk.vlabs.ac.in/exp/dip-and-strike/"
+  },
+  {
+    "name": "Borehole Problems",
+    "url": "https://mg-nitk.vlabs.ac.in/exp/borehole-problems/"
+  },
+  {
+    "name": "Thickness of Strata by Graphical Method",
+    "url": "https://mg-nitk.vlabs.ac.in/exp/graphical-method/"
+  }
+] },
+        { "name": "Strength of Materials Lab", "status": "Hosted", "url": "https://sm-nitk.vlabs.ac.in/", "experiments": [
+  {
+    "name": "Izod Impact Test",
+    "url": "https://sm-nitk.vlabs.ac.in/exp/izod-impact-test/"
+  },
+  {
+    "name": "Charpy Impact Test",
+    "url": "https://sm-nitk.vlabs.ac.in/exp/charpy-impact-test/"
+  },
+  {
+    "name": "Direct Shear Test on Mild Steel Rod",
+    "url": "https://sm-nitk.vlabs.ac.in/exp/direct-shear-test-mild-steel-rod/"
+  },
+  {
+    "name": "Direct Shear Test on Timber Specimen",
+    "url": "https://sm-nitk.vlabs.ac.in/exp/direct-shear-test-timber-specimen/"
+  },
+  {
+    "name": "Direct Shear Test on Mild Steel Plate",
+    "url": "https://sm-nitk.vlabs.ac.in/exp/direct-shear-test-mild-steel-plate/"
+  },
+  {
+    "name": "Brinell Hardness Test",
+    "url": "https://sm-nitk.vlabs.ac.in/exp/brinell-hardness-test/"
+  },
+  {
+    "name": "Bending Test on Mild Steel",
+    "url": "https://sm-nitk.vlabs.ac.in/exp/bending-test-mild-steel/"
+  },
+  {
+    "name": "Rockwell Hardness Test",
+    "url": "https://sm-nitk.vlabs.ac.in/exp/rockwell-hardness-test/"
+  },
+  {
+    "name": "Vickers Hardness Test",
+    "url": "https://sm-nitk.vlabs.ac.in/exp/vickers-hardness-test/"
+  },
+  {
+    "name": "Tensile Test on Mild Steel",
+    "url": "https://sm-nitk.vlabs.ac.in/exp/tensile-test-mild-steel/"
+  },
+  {
+    "name": "Tensile Test on Cast Iron",
+    "url": "https://sm-nitk.vlabs.ac.in/exp/tensile-test-cast-iron/"
+  },
+  {
+    "name": "Compression Test on Mild Steel",
+    "url": "https://sm-nitk.vlabs.ac.in/exp/compression-test-mild-steel/"
+  },
+  {
+    "name": "Compression Test on Cast Iron",
+    "url": "https://sm-nitk.vlabs.ac.in/exp/compression-test-cast-iron/"
+  },
+  {
+    "name": "Torsion Test on Mild Steel",
+    "url": "https://sm-nitk.vlabs.ac.in/exp/torsion-test-mild-steel/"
+  }
+]},
+        { "name": "Geotechnical Engineering Lab", "status": "Hosted", "url": "https://gte-nitk.vlabs.ac.in/", "experiments": [
+  {
+    "name": "Determination of Particle Size Distribution (Finer than 75 Micron) Using Density Hydrometer",
+    "url": "https://gte-nitk.vlabs.ac.in/exp/particle-size-distribution-hydrometer/"
+  },
+  {
+    "name": "Determination of Dry Density by Sand Replacement Method",
+    "url": "https://gte-nitk.vlabs.ac.in/exp/sand-replacement-method/"
+  },
+  {
+    "name": "Determination of In-situ Density by Core Cutter Method",
+    "url": "https://gte-nitk.vlabs.ac.in/exp/core-cutter-method/"
+  },
+  {
+    "name": "Determination of Liquid Limit and Plastic Limit for Cohesive Soils",
+    "url": "https://gte-nitk.vlabs.ac.in/exp/liquid-plastic-limit/"
+  },
+  {
+    "name": "Determination of Shrinkage Limit for Cohesive Soils",
+    "url": "https://gte-nitk.vlabs.ac.in/exp/shrinkage-limit/"
+  },
+  {
+    "name": "Determination of MDD and OMC by Standard Proctor Test",
+    "url": "https://gte-nitk.vlabs.ac.in/exp/standard-proctor-test/"
+  },
+  {
+    "name": "Determination of Coefficient of Consolidation by Oedometer Test",
+    "url": "https://gte-nitk.vlabs.ac.in/exp/oedometer-test/"
+  },
+  {
+    "name": "Determination of Uniaxial Compression Strength of Soil by Unconfined Compression Test",
+    "url": "https://gte-nitk.vlabs.ac.in/exp/unconfined-compression-test/"
+  },
+  {
+    "name": "Determination of Undrained Shear Strength of Soil by Vane Shear Test",
+    "url": "https://gte-nitk.vlabs.ac.in/exp/vane-shear-test/"
+  },
+  {
+    "name": "Determination of Coefficient of Permeability of Soil by Constant Head Permeability Test",
+    "url": "https://gte-nitk.vlabs.ac.in/exp/constant-head-permeability-test/"
+  }
+] },
+        { "name": "Advanced Remote Sensing and GIS Lab", "status": "Hosted", "url": "https://ars-nitk.vlabs.ac.in/", "experiments": [
+  {
+    "name": "Georeferencing of Toposheet",
+    "url": "https://ars-nitk.vlabs.ac.in/exp/georeferencing-of-toposheet/"
+  },
+  {
+    "name": "Cartography of GIS Data",
+    "url": "https://ars-nitk.vlabs.ac.in/exp/cartography-of-gis-data/"
+  },
+  {
+    "name": "LAI Using Leaf Area Index Meter",
+    "url": "https://ars-nitk.vlabs.ac.in/exp/lai-using-leaf-area-index-meter/"
+  },
+  {
+    "name": "Extraction of Topographical Features Using DEM Data",
+    "url": "https://ars-nitk.vlabs.ac.in/exp/extraction-of-topographical-features-using-dem-data/"
+  },
+  {
+    "name": "Digitization of Feature Classes in GIS Through Vector Layers",
+    "url": "https://ars-nitk.vlabs.ac.in/exp/digitization-of-feature-classes-in-gis/"
+  },
+  {
+    "name": "Photogrammetry: RGB Data Capturing Using UAV",
+    "url": "https://ars-nitk.vlabs.ac.in/exp/photogrammetry-rgb-data-capturing-using-uav/"
+  },
+  {
+    "name": "Georeferencing Aerial Maps Using DGPS (Differential GPS)",
+    "url": "https://ars-nitk.vlabs.ac.in/exp/georeferencing-aerial-maps-using-dgps/"
+  },
+  {
+    "name": "Solar Panel Monitoring Using Data from UAV with Thermal Camera",
+    "url": "https://ars-nitk.vlabs.ac.in/exp/solar-panel-monitoring-using-uav/"
+  },
+  {
+    "name": "Volume Estimation Using Aerial LiDAR",
+    "url": "https://ars-nitk.vlabs.ac.in/exp/volume-estimation-using-aerial-lidar/"
+  },
+  {
+    "name": "Precision Agriculture Using Multispectral UAV",
+    "url": "https://ars-nitk.vlabs.ac.in/exp/precision-agriculture-using-multispectral-uav/"
+  }
+]},
+        { "name": "Ground Water Engineering Virtual Lab", "status": "Hosted", "url": "https://gwe-nitk.vlabs.ac.in/", "experiments": [
+  {
+    "name": "Percolation Test of Soil",
+    "url": "https://gwe-nitk.vlabs.ac.in/exp/percolation-test/"
+  },
+  {
+    "name": "Infiltration Test Using Simple (Tube Type) Infiltrometer",
+    "url": "https://gwe-nitk.vlabs.ac.in/exp/simple-infiltrometer/"
+  },
+  {
+    "name": "Infiltration Test Using Double-Ring Infiltrometer",
+    "url": "https://gwe-nitk.vlabs.ac.in/exp/double-ring-infiltrometer/"
+  },
+  {
+    "name": "Determination of Transmissivity of the Aquifer",
+    "url": "https://gwe-nitk.vlabs.ac.in/exp/transmissivity-of-aquifer/"
+  },
+  {
+    "name": "Determination of Hydraulic Conductivity of the Aquifer Using Constant Head Test",
+    "url": "https://gwe-nitk.vlabs.ac.in/exp/constant-head-test/"
+  },
+  {
+    "name": "Determination of Hydraulic Conductivity of the Aquifer Using Falling Head Test",
+    "url": "https://gwe-nitk.vlabs.ac.in/exp/falling-head-test/"
+  },
+  {
+    "name": "Geo-Resistivity Test for Groundwater Level Identification",
+    "url": "https://gwe-nitk.vlabs.ac.in/exp/geo-resistivity-groundwater-level/"
+  },
+  {
+    "name": "Geo-Resistivity Test for Bedrock Identification",
+    "url": "https://gwe-nitk.vlabs.ac.in/exp/geo-resistivity-bedrock-identification/"
+  },
+  {
+    "name": "Subsurface Investigation Using Ground Penetrating Radar",
+    "url": "https://gwe-nitk.vlabs.ac.in/exp/subsurface-investigation/"
+  },
+  {
+    "name": "Groundwater Level Identification Using Ground Penetrating Radar",
+    "url": "https://gwe-nitk.vlabs.ac.in/exp/groundwater-level-identification-gpr/"
+  },
+  {
+    "name": "Determination of Specific Yield of Open Well",
+    "url": "https://gwe-nitk.vlabs.ac.in/exp/specific-yield-open-well/"
+  }
+]}
+      ]
+    },
+    {
+      "id": "electrical",
+      "name": "Electrical Engineering",
+      "icon": "⚡",
+      "labs": [
+        { "name": "Industrial Electric Drives Lab", "status": "Hosted", "url": "https://ied-nitk.vlabs.ac.in/", "experiments": [
+  {
+    "name": "Introduction to PLC and Introduction to Digital I/O Interface to PLC",
+    "url": "https://ied-nitk.vlabs.ac.in/exp/introduction-to-plc/"
+  },
+  {
+    "name": "Introduction to Ladder Logic",
+    "url": "https://ied-nitk.vlabs.ac.in/exp/introduction-to-ladder-logic/"
+  },
+  {
+    "name": "PLC On-Delay Timer Instruction",
+    "url": "https://ied-nitk.vlabs.ac.in/exp/plc-on-delay-timer/"
+  },
+  {
+    "name": "PLC Off-Delay Timer Instruction",
+    "url": "https://ied-nitk.vlabs.ac.in/exp/plc-off-delay-timer/"
+  },
+  {
+    "name": "PLC Retentive Timer On Instruction",
+    "url": "https://ied-nitk.vlabs.ac.in/exp/plc-retentive-timer-on/"
+  },
+  {
+    "name": "PLC Count-Up Instruction",
+    "url": "https://ied-nitk.vlabs.ac.in/exp/plc-count-up/"
+  },
+  {
+    "name": "PLC Count-Down Instruction",
+    "url": "https://ied-nitk.vlabs.ac.in/exp/plc-count-down/"
+  },
+  {
+    "name": "Garage Shutter Opening and Closing Using PLC",
+    "url": "https://ied-nitk.vlabs.ac.in/exp/garage-shutter-opening-closing/"
+  },
+  {
+    "name": "Container Filling Process Using PLC",
+    "url": "https://ied-nitk.vlabs.ac.in/exp/container-filling-process/"
+  },
+  {
+    "name": "Simultaneous Output Interlock Using PLC",
+    "url": "https://ied-nitk.vlabs.ac.in/exp/simultaneous-output-interlock/"
+  },
+  {
+    "name": "Maximum Simultaneous Operations Limiter Using PLC",
+    "url": "https://ied-nitk.vlabs.ac.in/exp/maximum-simultaneous-operations-limiter/"
+  },
+  {
+    "name": "Motor Forward and Reverse Direction Control Using PLC",
+    "url": "https://ied-nitk.vlabs.ac.in/exp/motor-forward-reverse-control/"
+  }
+] },
+        { "name": "Substation Automation Lab", "status": "Hosted", "url": "https://sa-nitk.vlabs.ac.in/", "experiments": [
+  {
+    "name": "Circuit Breaker Status Indication from Field Input",
+    "url": "https://sa-nitk.vlabs.ac.in/exp/circuit-breaker-status-indication/"
+  },
+  {
+    "name": "Control of Group Operated Switches (GOS) from Workstation",
+    "url": "https://sa-nitk.vlabs.ac.in/exp/control-of-group-operated-switches/"
+  },
+  {
+    "name": "Monitoring Feeder Parameter from Workstation",
+    "url": "https://sa-nitk.vlabs.ac.in/exp/monitoring-feeder-parameter/"
+  },
+  {
+    "name": "Fault Scenario Simulation in a Feeder",
+    "url": "https://sa-nitk.vlabs.ac.in/exp/fault-scenario-feeder/"
+  },
+  {
+    "name": "Fault Scenario Simulation in a Transformer / Bus",
+    "url": "https://sa-nitk.vlabs.ac.in/exp/fault-scenario-transformer-bus/"
+  },
+  {
+    "name": "Load Transfer from One Feeder to Another During Transformer Maintenance",
+    "url": "https://sa-nitk.vlabs.ac.in/exp/load-transfer-during-transformer-maintenance/"
+  },
+  {
+    "name": "Control of Bus Voltages Through On-Load Tap Changes",
+    "url": "https://sa-nitk.vlabs.ac.in/exp/control-of-bus-voltages/"
+  },
+  {
+    "name": "Development of 11KV/433V Substation Automation Scheme Using PLC for Normal Load Operation",
+    "url": "https://sa-nitk.vlabs.ac.in/exp/plc-normal-load-operation/"
+  },
+  {
+    "name": "Development of 11KV/433V Substation Automation Scheme Using PLC for Timer ON/OFF Load Control",
+    "url": "https://sa-nitk.vlabs.ac.in/exp/plc-timer-on-off-load-control/"
+  },
+  {
+    "name": "Development of 11KV/433V Substation Automation Scheme Using PLC for Cyclic ON/OFF Load Control",
+    "url": "https://sa-nitk.vlabs.ac.in/exp/plc-cyclic-on-off-load-control/"
+  },
+  {
+    "name": "Autoreclosure and Sectionalizer Operation",
+    "url": "https://sa-nitk.vlabs.ac.in/exp/autoreclosure-and-sectionalizer-operation/"
+  }
+] }
+      ]
+    },
+    {
+      "id": "chemical",
+      "name": "Chemical Engineering",
+      "icon": "🧪",
+      "labs": [
+        {
+          "name": "Process Control, Reaction Engineering and Unit Operations Lab",
+          "status": "Hosted",
+          "url": "https://uorepc-nitk.vlabs.ac.in/",
+          "experiments": [
+  {
+    "name": "Flow through Pipes",
+    "url": "https://uorepc-nitk.vlabs.ac.in/exp/flow-through-pipes/"
+  },
+  {
+    "name": "Flow through Fittings",
+    "url": "https://uorepc-nitk.vlabs.ac.in/exp/flow-through-fittings/"
+  },
+  {
+    "name": "Flow through Orifice Meter",
+    "url": "https://uorepc-nitk.vlabs.ac.in/exp/flow-through-orifice-meter/"
+  },
+  {
+    "name": "Flow through Venturi Meter",
+    "url": "https://uorepc-nitk.vlabs.ac.in/exp/flow-through-venturi-meter/"
+  },
+  {
+    "name": "Flow through Packed Bed",
+    "url": "https://uorepc-nitk.vlabs.ac.in/exp/flow-through-packed-bed/"
+  },
+  {
+    "name": "Flow through Fluidized Bed",
+    "url": "https://uorepc-nitk.vlabs.ac.in/exp/flow-through-fluidized-bed/"
+  },
+  {
+    "name": "Reaction Kinetic Studies in a Batch Reactor",
+    "url": "https://uorepc-nitk.vlabs.ac.in/exp/reaction-kinetics-batch-reactor/"
+  },
+  {
+    "name": "Reaction Kinetic Studies in a Mixed Flow Reactor",
+    "url": "https://uorepc-nitk.vlabs.ac.in/exp/reaction-kinetics-mixed-flow-reactor/"
+  },
+  {
+    "name": "Reaction Kinetic Studies in a Plug Flow Reactor",
+    "url": "https://uorepc-nitk.vlabs.ac.in/exp/reaction-kinetics-plug-flow-reactor/"
+  }
+]
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "name": "Physical Sciences",
+      "icon": "🔬",
+      "labs": [
+        {
+          "name": "Physics Laboratory I",
+          "status": "Hosted",
+          "url": "http://ph1-nitk.vlabs.ac.in/",
+          "experiments": [
+  {
+    "name": "Monostable and Bistable Multivibrator",
+    "url": "https://ph1-nitk.vlabs.ac.in/exp/monostable-bistable-multivibrator/"
+  },
+  {
+    "name": "Viscosity by Stokes Method",
+    "url": "https://ph1-nitk.vlabs.ac.in/exp/viscosity-stokes-method/"
+  },
+  {
+    "name": "Hall-Effect: Determination of Carrier Concentration",
+    "url": "https://ph1-nitk.vlabs.ac.in/exp/hall-effect/"
+  },
+  {
+    "name": "Zeeman Effect",
+    "url": "https://ph1-nitk.vlabs.ac.in/exp/zeeman-effect/"
+  },
+  {
+    "name": "Phase Shift Oscillator",
+    "url": "https://ph1-nitk.vlabs.ac.in/exp/phase-shift-oscillator/"
+  },
+  {
+    "name": "Half/Full Wave Rectifier",
+    "url": "https://ph1-nitk.vlabs.ac.in/exp/half-full-wave-rectifier/"
+  },
+  {
+    "name": "Surface Tension of Water and Kerosene by Drop Weight Method",
+    "url": "https://ph1-nitk.vlabs.ac.in/exp/surface-tension-drop-weight-method/"
+  },
+  {
+    "name": "Helmholtz Oscillator/Resonator",
+    "url": "https://ph1-nitk.vlabs.ac.in/exp/helmholtz-oscillator/"
+  },
+  {
+    "name": "Double Pendulum",
+    "url": "https://ph1-nitk.vlabs.ac.in/exp/double-pendulum/"
+  },
+  {
+    "name": "Kerr Effect",
+    "url": "https://ph1-nitk.vlabs.ac.in/exp/kerr-effect/"
+  }
+]
+        }
+      ]
+    },
+    {
+      "id": "vlsi",
+      "name": "Electronics & VLSI",
+      "icon": "💻",
+      "labs": [
+        {
+          "name": "VLSI Design Testing Laboratory",
+          "status": "Hosted",
+          "url": "https://vlsi-nitk.vlabs.ac.in/",
+          "experiments": [
+  {
+    "name": "Detection of both SA0 and SA1 faults on a VLSI circuit that represents 3-input ODD function",
+    "url": "https://vlsi-nitk.vlabs.ac.in/exp/3-input-odd-function/"
+  },
+  {
+    "name": "Detection of both SA0 and SA1 faults on a VLSI circuit that represents 3-input EVEN function",
+    "url": "https://vlsi-nitk.vlabs.ac.in/exp/3-input-even-function/"
+  },
+  {
+    "name": "Detection of both SA0 and SA1 faults on a VLSI circuit for 3-bit EVEN parity generator circuit",
+    "url": "https://vlsi-nitk.vlabs.ac.in/exp/3-bit-even-parity-generator/"
+  },
+  {
+    "name": "Detection of both SA0 and SA1 faults on a VLSI circuit for 4-bit EVEN parity checker circuit",
+    "url": "https://vlsi-nitk.vlabs.ac.in/exp/4-bit-even-parity-checker/"
+  },
+  {
+    "name": "Detection of SA0 faults on selected I/O wires of a VLSI circuit for BCD-to-Excess-3 Code Converter",
+    "url": "https://vlsi-nitk.vlabs.ac.in/exp/bcd-to-excess-3-sa0/"
+  },
+  {
+    "name": "Detection of SA1 faults on selected I/O wires of a VLSI circuit for BCD-to-Excess-3 Code Converter",
+    "url": "https://vlsi-nitk.vlabs.ac.in/exp/bcd-to-excess-3-sa1/"
+  },
+  {
+    "name": "Detection of SA0 faults on a VLSI circuit for 2×1 Multiplexer",
+    "url": "https://vlsi-nitk.vlabs.ac.in/exp/2x1-multiplexer-sa0/"
+  },
+  {
+    "name": "Detection of SA1 faults on a VLSI circuit for 2×1 Multiplexer",
+    "url": "https://vlsi-nitk.vlabs.ac.in/exp/2x1-multiplexer-sa1/"
+  },
+  {
+    "name": "Detection of SA0 faults on a VLSI circuit for 4×16 Decoder constructed with two 3×8 Decoders",
+    "url": "https://vlsi-nitk.vlabs.ac.in/exp/4x16-decoder-sa0/"
+  },
+  {
+    "name": "Detection of SA1 faults on a VLSI circuit for 4×16 Decoder constructed with two 3×8 Decoders",
+    "url": "https://vlsi-nitk.vlabs.ac.in/exp/4x16-decoder-sa1/"
+  },
+  {
+    "name": "Detection of SA0 faults on a VLSI circuit for 4-input Priority Encoder",
+    "url": "https://vlsi-nitk.vlabs.ac.in/exp/4-input-priority-encoder-sa0/"
+  },
+  {
+    "name": "Detection of SA1 faults on a VLSI circuit for 4-input Priority Encoder",
+    "url": "https://vlsi-nitk.vlabs.ac.in/exp/4-input-priority-encoder-sa1/"
+  }
+]
+        }
+      ]
+    }
+  ],
+  "upcomingLabs": [
+  {
+    "name": "Engineering Mechanics",
+    "department": "Mechanical Engineering"
+  },
+  {
+    "name": "Kinematics of Machine",
+    "department": "Mechanical Engineering"
+  },
+  {
+    "name": "Manufacturing Lab",
+    "department": "Mechanical Engineering"
+  },
+  {
+    "name": "Thermodynamics Lab",
+    "department": "Mechanical Engineering"
+  },
+  {
+    "name": "Vibration Lab III",
+    "department": "Mechanical Engineering"
+  },
+  {
+    "name": "Vibration Lab IV",
+    "department": "Mechanical Engineering"
+  },
+  {
+    "name": "Applied Cyber Physical Systems Lab I",
+    "department": "Mechatronics"
+  },
+  {
+    "name": "Applied Cyber Physical Systems Lab II",
+    "department": "Mechatronics"
+  },
+  {
+    "name": "Induction Motors Lab",
+    "department": "Mechatronics"
+  },
+  {
+    "name": "Switched Reluctance Motor",
+    "department": "Mechatronics"
+  },
+  {
+    "name": "Unmanned Aerial Vehicle Lab",
+    "department": "Civil Engineering"
+  },
+  {
+    "name": "Additive Manufacturing Lab",
+    "department": "Mechanical Engineering"
+  },
+  {
+    "name": "Disaster Management Lab",
+    "department": "Transdisciplinary"
+  },
+  {
+    "name": "Physical Metallurgy Lab",
+    "department": "Metallurgy"
+  },
+  {
+    "name": "Mining Ventilation Lab",
+    "department": "Civil Engineering"
+  },
+  {
+    "name": "Basic Electronics",
+    "department": "Electronics and Communication Engineering"
+  },
+  {
+    "name": "Analog Electronics Lab",
+    "department": "Electronics and Communication Engineering"
+  },
+  {
+    "name": "Analog Circuits Lab",
+    "department": "Electronics and Communication Engineering"
+  },
+  {
+    "name": "Digital Signal Processing Filters",
+    "department": "Electronics and Communication Engineering"
+  },
+  {
+    "name": "Management Lab I",
+    "department": "Management"
+  },
+  {
+    "name": "Management Lab II",
+    "department": "Management"
+  },
+  {
+    "name": "Digital System Design Lab",
+    "department": "Computer Science and Engineering"
+  },
+  {
+    "name": "Compiler Design Lab",
+    "department": "Computer Science and Engineering"
+  },
+  {
+    "name": "Database Management Lab",
+    "department": "Computer Science and Engineering"
+  },
+  {
+    "name": "Operating System Lab",
+    "department": "Computer Science and Engineering"
+  },
+  {
+    "name": "Image Processing Lab",
+    "department": "Electronics and Communication Engineering"
+  },
+  {
+    "name": "Electromagnetism Lab",
+    "department": "Physics"
+  },
+  {
+    "name": "Mechanics Lab",
+    "department": "Physics"
+  },
+  {
+    "name": "Chemistry Lab",
+    "department": "Chemistry"
+  }
+]
+}

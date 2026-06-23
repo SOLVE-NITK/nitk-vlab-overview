@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NITK Virtual Labs Dashboard</title>
+<link rel="stylesheet" href="./css/style.css">
+<script defer src="./js/main.js"></script>
+</head>
+
+<body>
+
+<header class="topbar">
+  <h1>🧪 NITK Virtual Labs Dashboard</h1>
+
+  <input
+    class="search"
+    type="text"
+    placeholder="Search labs or experiments..."
+  >
+</header>
+
+<section class="stats" id="statsContainer">
+
+  <div class="stat-card">
+    <div class="stat-icon">🏬</div>
+    <div class="stat-info">
+        <h2>6</h2>
+        <p>Departments</p>
+    </div>
+</div>
+
+  <div class="stat-card">
+    <div class="stat-icon">🔬</div>
+    <div class="stat-info">
+        <h2>23</h2>
+        <p>Labs</p>
+    </div>
+  </div>
+
+  <div class="stat-card">
+    <div class="stat-icon">⚗️</div>
+    <div class="stat-info">
+        <h2>180+</h2>
+        <p>Experiments</p>
+    </div>
+  </div>
+
+  <div class="stat-card">
+    <div class="stat-icon">🔗</div>
+    <div class="stat-info">
+        <h2>23</h2>
+        <p>Hosted Labs</p>
+    </div>
+  </div>
+
+</section>
+
+<div class="layout">
+
+  <aside class="sidebar">
+
+    <h3>Departments</h3>
+
+    <div id="departmentList">
+    <button>⚙️ Mechanical <span>8</span></button>
+    <button>🏗️ Civil <span>10</span></button>
+    <button>⚡ Electrical <span>2</span></button>
+    <button>🧪 Chemical <span>1</span></button>
+    <button>🔬 Physics <span>1</span></button>
+    <button>💻 VLSI <span>1</span></button>
+  </div>
+
+  </aside>
+
+  <main class="content">
+
+  <div class="content-header">
+    <h2 id="currentDepartment">Hosted Labs</h2>
+  </div>
+
+  <!-- JS renders hosted labs here -->
+  <div id="labList" class="lab-list"></div>
+
+  <!-- JS renders upcoming labs here -->
+  <section class="upcoming-section">
+    <div class="section-header">
+      <h2>🚀 Upcoming Virtual Labs</h2>
+      <span class="upcoming-count">29 Labs</span>
+    </div>
+
+    <div id="upcomingLabsContainer" class="upcoming-grid"></div>
+  </section>
+
+</main>
+
+</div>
+
+</body>
+</html>
