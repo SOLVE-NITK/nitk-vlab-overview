@@ -526,3 +526,58 @@ body {
         width:100%;
     }
 }
+
+
+
+@media (max-width: 900px) {
+   html,
+  body {
+    height: auto;
+    min-height: 100vh;
+    overflow-y: auto;
+  }
+  .layout {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow: visible;
+  }
+
+  .sidebar,
+  .content {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+
+   .lab-list,
+  .content {
+    overflow: visible;
+    flex: unset;
+  }
+
+  .topbar {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1rem;
+  }
+
+  .topbar h1 {
+    font-size: 1.3rem;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .lab-card summary {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .lab-card summary a {
+    width: 100%;
+    text-align: center;
+  }
+}
