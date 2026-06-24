@@ -318,32 +318,36 @@
     "url": "https://vibration2-nitk.vlabs.ac.in/exp/free-vibration-analysis-two-degree-freedom/"
   },
   {
-    "name": "Forced Vibration Analysis of 2 DOF System",
-    "url": "https://vibration2-nitk.vlabs.ac.in/exp/forced-vibration-analysis-two-degree-freedom/"
-  },
-  {
     "name": "Impulse Response Analysis of 2 DOF System",
     "url": "https://vibration2-nitk.vlabs.ac.in/exp/impulse-response-analysis-two-degree-freedom/"
-  },
-  {
-    "name": "Motor on a Foundation as a 2 DOF System – Forced Vibration with Rotating Unbalance",
-    "url": "https://vibration2-nitk.vlabs.ac.in/exp/motor-foundation-two-degree-rotating-unbalance/"
-  },
-  {
-    "name": "Forging Hammer as a 2 DOF System – Impulse Excitation",
-    "url": "https://vibration2-nitk.vlabs.ac.in/exp/forging-hammer-two-degree-freedom/"
   },
   {
     "name": "Tuned Dynamic Vibration Absorber",
     "url": "https://vibration2-nitk.vlabs.ac.in/exp/tuned-dynamic-vibration-absorber/"
   },
   {
-    "name": "Automotive Vehicle as a 2 DOF System – Static Coupling",
-    "url": "https://vibration2-nitk.vlabs.ac.in/exp/automotive-vehicle-static-coupling/"
+    "name": "Motor on a Foundation as a Two Degree of Freedom System - Free vibration",
+    "url": "https://vibration2-nitk.vlabs.ac.in/exp/motor-foundation-two-degree/"
   },
   {
-    "name": "Automotive Vehicle as a 2 DOF System – Dynamic Coupling",
-    "url": "https://vibration2-nitk.vlabs.ac.in/exp/automotive-vehicle-dynamic-coupling/"
+    "name": "Motor on a Foundation as a 2 DOF System – Forced Vibration with Rotating Unbalance",
+    "url": "https://vibration2-nitk.vlabs.ac.in/exp/motor-foundation-two-degree-rotating-unbalance/"
+  },
+  {
+    "name": "Forging hammer as a Two Degree of Freedom System - Free vibration",
+    "url": "https://vibration2-nitk.vlabs.ac.in/exp/forging-hammer-two-degree-freedom/"
+  },
+  {
+    "name": "Forging Hammer as a 2 DOF System – Impulse Excitation",
+    "url": "https://vibration2-nitk.vlabs.ac.in/exp/forging-hammer-two-degree-freedom/"
+  },
+  {
+    "name": "Automotive vehicle as a Two Degree of Freedom System - Static and Dynamics coupling",
+    "url": "https://vibration2-nitk.vlabs.ac.in/exp/automotive-vehicle-static-dynamics-coupling/"
+  },
+  {
+    "name": "Torsional System of Two Degree of Freedom",
+    "url": "https://vibration2-nitk.vlabs.ac.in/exp/torsional-system-two-degree-freedom/"
   },
   {
     "name": "Double Pendulum",
@@ -1080,26 +1084,6 @@
   {
     "name": "Switched Reluctance Motor",
     "department": "Mechatronics"
-  },
-  {
-    "name": "Unmanned Aerial Vehicle Lab",
-    "department": "Civil Engineering"
-  },
-  {
-    "name": "Additive Manufacturing Lab",
-    "department": "Mechanical Engineering"
-  },
-  {
-    "name": "Disaster Management Lab",
-    "department": "Transdisciplinary"
-  },
-  {
-    "name": "Physical Metallurgy Lab",
-    "department": "Metallurgy"
-  },
-  {
-    "name": "Mining Ventilation Lab",
-    "department": "Civil Engineering"
   },
   {
     "name": "Basic Electronics",
