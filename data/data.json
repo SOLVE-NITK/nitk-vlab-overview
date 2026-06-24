@@ -57,42 +57,10 @@
   {
     "name": "Critical Heat Flux",
     "url": "https://ht-nitk.vlabs.ac.in/exp/critical-heat-flux/"
-  }
-]
-        },
-        {
-          "id": "fluid-machinery",
-          "name": "Fluid Machinery Lab",
-          "status": "Hosted",
-          "url": "https://fmc-nitk.vlabs.ac.in",
-          "experiments": [
-  {
-    "name": "Performance Characteristics of Centrifugal Pump",
-    "url": "https://fmc-nitk.vlabs.ac.in/exp/centrifugal-pump/"
   },
   {
-    "name": "Performance Characteristics of Hydraulic Ram",
-    "url": "https://fmc-nitk.vlabs.ac.in/exp/hydraulic-ram/"
-  },
-  {
-    "name": "Performance Characteristics of Kaplan Turbine",
-    "url": "https://fmc-nitk.vlabs.ac.in/exp/kaplan-turbine/"
-  },
-  {
-    "name": "Double Acting Reciprocating Pump",
-    "url": "https://fmc-nitk.vlabs.ac.in/exp/double-acting-reciprocating-pump/"
-  },
-  {
-    "name": "Performance Characteristics of Pelton Turbine",
-    "url": "https://fmc-nitk.vlabs.ac.in/exp/pelton-turbine/"
-  },
-  {
-    "name": "Pipe Bursting",
-    "url": "https://fmc-nitk.vlabs.ac.in/exp/pipe-bursting/"
-  },
-  {
-    "name": "Performance Characteristics of Francis Turbine",
-    "url": "https://fmc-nitk.vlabs.ac.in/exp/francis-turbine/"
+    "name": "Heat Exchangers",
+    "url": "https://ht-nitk.vlabs.ac.in/exp/heat-exchangers/"
   }
 ]
         },
@@ -390,6 +358,42 @@
       "name": "Civil Engineering",
       "icon": "🏗️",
       "labs": [
+        {
+          "id": "fluid-machinery",
+          "name": "Fluid Machinery Lab",
+          "status": "Hosted",
+          "url": "https://fmc-nitk.vlabs.ac.in",
+          "experiments": [
+  {
+    "name": "Performance Characteristics of Centrifugal Pump",
+    "url": "https://fmc-nitk.vlabs.ac.in/exp/centrifugal-pump/"
+  },
+  {
+    "name": "Performance Characteristics of Hydraulic Ram",
+    "url": "https://fmc-nitk.vlabs.ac.in/exp/hydraulic-ram/"
+  },
+  {
+    "name": "Performance Characteristics of Kaplan Turbine",
+    "url": "https://fmc-nitk.vlabs.ac.in/exp/kaplan-turbine/"
+  },
+  {
+    "name": "Double Acting Reciprocating Pump",
+    "url": "https://fmc-nitk.vlabs.ac.in/exp/double-acting-reciprocating-pump/"
+  },
+  {
+    "name": "Performance Characteristics of Pelton Turbine",
+    "url": "https://fmc-nitk.vlabs.ac.in/exp/pelton-turbine/"
+  },
+  {
+    "name": "Pipe Bursting",
+    "url": "https://fmc-nitk.vlabs.ac.in/exp/pipe-bursting/"
+  },
+  {
+    "name": "Performance Characteristics of Francis Turbine",
+    "url": "https://fmc-nitk.vlabs.ac.in/exp/francis-turbine/"
+  }
+]
+        },
         { 
           "name": "Fluid Mechanics Lab", 
           "status": "Hosted", 
@@ -1152,6 +1156,26 @@
   {
     "name": "Chemistry Lab",
     "department": "Chemistry"
+  },
+  {
+    "name":"Machine Learning Lab",
+    "department":"Computer Science and Engineering"
+  },
+  {
+    "name":"DBMS lab 2",
+    "department":"Computer Science and Engineering"
+  },
+  {
+    "name":"Operating System Lab 2",
+    "department":"Computer Science and Engineering"
+  },
+  {
+    "name":"Proteomics Lab",
+    "department":"Mechanical Engineering"
+  },
+  {
+    "name":"Marine Mechatronics System Design Lab",
+    "department":"Mechatronics"
   }
 ]
 }

@@ -11,7 +11,7 @@
 <body>
 
 <header class="topbar">
-  <h1>🧪 NITK Virtual Labs Dashboard</h1>
+  <h1><span><img src="./data/logo_nitk.png" class="logo"/></span> NITK Virtual Labs Dashboard</h1>
 
   <input
     class="search"
@@ -26,7 +26,7 @@
     <div class="stat-icon">🏬</div>
     <div class="stat-info">
         <h2>6</h2>
-        <p>Departments</p>
+        <p>Domains</p>
     </div>
 </div>
 
@@ -60,7 +60,7 @@
 
   <aside class="sidebar">
 
-    <h3>Departments</h3>
+    <h3>Domains</h3>
 
     <div id="departmentList">
     <button>⚙️ Mechanical <span>8</span></button>
@@ -70,7 +70,6 @@
     <button>🔬 Physics <span>1</span></button>
     <button>💻 VLSI <span>1</span></button>
   </div>
-
   </aside>
 
   <main class="content">
@@ -86,14 +85,19 @@
   <section class="upcoming-section">
     <div class="section-header">
       <h2>🚀 Upcoming Virtual Labs</h2>
-      <span class="upcoming-count">29 Labs</span>
+      <span class="upcoming-count" id="upcomingCount">29 Labs</span>
     </div>
 
     <div id="upcomingLabsContainer" class="upcoming-grid"></div>
   </section>
 
 </main>
-
+<span class="credits">
+  📚 Data sourced from
+  <a href="https://www.vlab.co.in/" target="_blank">
+    vlab.co.in
+  </a>
+</span>
 </div>
 
 </body>

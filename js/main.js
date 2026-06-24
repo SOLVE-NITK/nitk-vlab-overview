@@ -43,29 +43,30 @@ function renderStats() {
                 ),
             0
         );
+    const totalUpcomingLabs = state.data.upcomingLabs.length;
 
     container.innerHTML = `
         <div class="stat-card">
             <div class="stat-icon">🏬</div>
             <h2>${totalDepartments}</h2>
-            <p>Departments</p>
+            <p>Domains</p>
         </div>
 
         <div class="stat-card">
             <div class="stat-icon">⚗️</div>
             <h2>${totalLabs}</h2>
-            <p>Labs</p>
+            <p>Hosted labs</p>
         </div>
 
         <div class="stat-card">
             <div class="stat-icon">🔬</div>
-            <h2>180+</h2>
+            <h2>${totalExperiments}</h2>
             <p>Experiments</p>
         </div>
         <div class="stat-card">
             <div class="stat-icon">🚀</div>
-            <h2>${state.data.summary.upcomingLabs}</h2>
-            <p>Upcoming</p>
+            <h2>${totalUpcomingLabs}</h2>
+            <p>Upcoming Labs</p>
         </div>
     `;
 }
@@ -141,8 +142,8 @@ function renderLabs() {
     const details = document.createElement("details");
     details.className = "lab-card";
 
+    // details.setAttribute("open", "");
     details.innerHTML = `
-    details.setAttribute("open", "");
     <summary>
     <div>
     <h2>🎯 ${lab.name}</h2>
@@ -219,18 +220,15 @@ search.addEventListener(
 
 
 function renderUpcominglabs(){
-
-  
-
-  
   const upcomingContainer = document.getElementById("upcomingLabsContainer");
+  document.getElementById("upcomingCount").innerHTML = `${state.data.upcomingLabs.length} Labs`;
 state.data.upcomingLabs.forEach((lab) => {
   const card = document.createElement("div");
   card.className = "upcoming-card";
 
   card.innerHTML = `
     <div class="upcoming-card-top">
-      <span class="upcoming-icon">🧪</span>
+      <span class="upcoming-icon">🚀</span>
       <span class="coming-badge">Coming Soon</span>
     </div>
 
