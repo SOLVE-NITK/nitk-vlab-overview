@@ -1047,119 +1047,168 @@
   "upcomingLabs": [
   {
     "name": "Engineering Mechanics",
-    "department": "Mechanical Engineering"
+    "department": "Mechanical Engineering",
+    "faculty":""
   },
   {
     "name": "Kinematics of Machine",
-    "department": "Mechanical Engineering"
+    "department": "Mechanical Engineering",
+    "faculty":""
   },
   {
     "name": "Manufacturing Lab",
-    "department": "Mechanical Engineering"
+    "department": "Mechanical Engineering",
+    "faculty":""
   },
   {
     "name": "Thermodynamics Lab",
-    "department": "Mechanical Engineering"
+    "department": "Mechanical Engineering",
+    "faculty":""
   },
   {
     "name": "Vibration Lab III",
-    "department": "Mechanical Engineering"
+    "department": "Mechanical Engineering",
+    "faculty":""
   },
   {
     "name": "Vibration Lab IV",
-    "department": "Mechanical Engineering"
+    "department": "Mechanical Engineering",
+    "faculty":""
   },
   {
     "name": "Applied Cyber Physical Systems Lab I",
-    "department": "Mechatronics"
+    "department": "Mechatronics",
+    "faculty":""
   },
   {
     "name": "Applied Cyber Physical Systems Lab II",
-    "department": "Mechatronics"
+    "department": "Mechatronics",
+    "faculty":""
   },
   {
     "name": "Induction Motors Lab",
-    "department": "Mechatronics"
+    "department": "Mechatronics",
+    "faculty":""
   },
   {
     "name": "Switched Reluctance Motor",
-    "department": "Mechatronics"
+    "department": "Mechatronics",
+    "faculty":""
   },
   {
     "name": "Basic Electronics",
-    "department": "Electronics and Communication Engineering"
+    "department": "Electronics and Communication Engineering",
+    "faculty":""
   },
   {
     "name": "Analog Electronics Lab",
-    "department": "Electronics and Communication Engineering"
+    "department": "Electronics and Communication Engineering",
+    "faculty":""
   },
   {
     "name": "Analog Circuits Lab",
-    "department": "Electronics and Communication Engineering"
+    "department": "Electronics and Communication Engineering",
+    "faculty":""
   },
   {
     "name": "Digital Signal Processing Filters",
-    "department": "Electronics and Communication Engineering"
+    "department": "Electronics and Communication Engineering",
+    "faculty":""
   },
   {
     "name": "Management Lab I",
-    "department": "Management"
-  },
-  {
-    "name": "Management Lab II",
-    "department": "Management"
+    "department": "Management",
+    "faculty":""
   },
   {
     "name": "Digital System Design Lab",
-    "department": "Computer Science and Engineering"
+    "department": "Computer Science and Engineering",
+    "faculty":""
   },
   {
     "name": "Compiler Design Lab",
-    "department": "Computer Science and Engineering"
+    "department": "Computer Science and Engineering",
+    "faculty":""
   },
   {
     "name": "Database Management Lab",
-    "department": "Computer Science and Engineering"
+    "department": "Computer Science and Engineering",
+    "faculty":""
   },
   {
     "name": "Operating System Lab",
-    "department": "Computer Science and Engineering"
+    "department": "Computer Science and Engineering",
+    "faculty":""
   },
   {
     "name": "Image Processing Lab",
-    "department": "Electronics and Communication Engineering"
+    "department": "Electronics and Communication Engineering",
+    "faculty":""
   },
   {
     "name": "Electromagnetism Lab",
-    "department": "Physics"
+    "department": "Physics",
+    "faculty":""
   },
   {
     "name": "Mechanics Lab",
-    "department": "Physics"
+    "department": "Physics",
+    "faculty":""
   },
   {
     "name": "Chemistry Lab",
-    "department": "Chemistry"
+    "department": "Chemistry",
+    "faculty":""
   },
   {
     "name":"Machine Learning Lab",
-    "department":"Computer Science and Engineering"
+    "department":"Computer Science and Engineering",
+    "faculty":""
   },
   {
     "name":"DBMS lab 2",
-    "department":"Computer Science and Engineering"
+    "department":"Computer Science and Engineering",
+    "faculty":""
   },
   {
     "name":"Operating System Lab 2",
-    "department":"Computer Science and Engineering"
+    "department":"Computer Science and Engineering",
+    "faculty":""
   },
   {
     "name":"Proteomics Lab",
-    "department":"Mechanical Engineering"
+    "department":"Mechanical Engineering",
+    "faculty":""
   },
   {
     "name":"Marine Mechatronics System Design Lab",
-    "department":"Mechatronics"
+    "department":"Mechatronics",
+    "faculty":""
+  },
+  {
+    "name":"Disaster Management Lab",
+    "department":"Transdisciplinary",
+    "faculty":"Dr. Pruthviraj U"
+  },
+  {
+    "name":"UAV Lab",
+    "department":"Civil Engineering",
+    "faculty":"Dr. Pruthviraj U"
+  },
+  {
+    "name":"Additive Manufacturing Lab",
+    "department":"Mechanical Engineering",
+    "faculty":"Dr. Pruthviraj U"
+  },
+  {
+    "name":"Physical Metallurgy Lab",
+    "department":"Mechanical Engineering",
+    "faculty":"Dr. Pruthviraj U, Dr. Devdas Bhat P"
+  },
+  {
+    "name":"Mining Ventillation Lab",
+    "department":"Civil Engineering",
+    "faculty":"Dr. Pruthviraj U"
   }
 ]
 }

@@ -544,6 +544,11 @@ h1{
   font-weight: 600;
 }
 
+.faculty{
+  font-weight: 600;
+  color: #187306e0;
+}
+
 @media (max-width:900px){
 
     .layout{

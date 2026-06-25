@@ -46,11 +46,7 @@ function renderStats() {
     const totalUpcomingLabs = state.data.upcomingLabs.length;
 
     container.innerHTML = `
-        <div class="stat-card">
-            <div class="stat-icon">🏬</div>
-            <h2>${totalDepartments}</h2>
-            <p>Domains</p>
-        </div>
+        
 
         <div class="stat-card">
             <div class="stat-icon">⚗️</div>
@@ -66,7 +62,7 @@ function renderStats() {
         <div class="stat-card">
             <div class="stat-icon">🚀</div>
             <h2>${totalUpcomingLabs}</h2>
-            <p>Upcoming Labs</p>
+            <p>Upcoming Labs: (New Proposals)</p>
         </div>
     `;
 }
@@ -219,24 +215,48 @@ search.addEventListener(
 );
 
 
-function renderUpcominglabs(){
-  const upcomingContainer = document.getElementById("upcomingLabsContainer");
-  document.getElementById("upcomingCount").innerHTML = `${state.data.upcomingLabs.length} Labs`;
-state.data.upcomingLabs.forEach((lab) => {
-  const card = document.createElement("div");
-  card.className = "upcoming-card";
+function renderUpcominglabs() {
 
-  card.innerHTML = `
-    <div class="upcoming-card-top">
-      <span class="upcoming-icon">🚀</span>
-      <span class="coming-badge">Coming Soon</span>
-    </div>
+  const upcomingContainer =
+    document.getElementById("upcomingLabsContainer");
 
-    <h3>${lab.name}</h3>
+  upcomingContainer.innerHTML = "";
 
-    <p>${lab.department}</p>
-  `;
+  document.getElementById("upcomingCount").textContent =
+    `${state.data.upcomingLabs.length} Labs`;
 
-  upcomingContainer.appendChild(card);
-});
+  state.data.upcomingLabs
+    .sort((a, b) =>
+        a.name.toLowerCase().localeCompare(
+        b.name.toLowerCase()
+    )
+    )
+    .forEach((lab) => {
+
+      const card = document.createElement("div");
+      card.className = "upcoming-card";
+
+      card.innerHTML = `
+        <div class="upcoming-card-top">
+          <span class="upcoming-icon">🚀</span>
+          <span class="coming-badge">Coming Soon</span>
+        </div>
+
+        <h3>${lab.name}</h3>
+
+        ${
+          lab.faculty
+            ? `<p class="faculty">
+                Faculty Developer: ${lab.faculty}
+               </p>`
+            : ""
+        }
+
+        <p>${lab.department}</p>
+      `;
+
+      upcomingContainer.appendChild(card);
+
+    });
+
 }
